@@ -2,7 +2,7 @@ import bpy
 
 class PIVOTMAPPER_OT_align(bpy.types.Operator):
     bl_idname = "pivotmapper.align"
-    bl_label = "Align Pivots to Bones"
+    bl_label = "Align Pivots to BEER"
     bl_description = "Перемещает только Origin мешей к головам костей по именам до точки «.»"
     bl_options = {'REGISTER', 'UNDO'}
 
